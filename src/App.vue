@@ -16,10 +16,10 @@ export default defineComponent({
 </script>
 
 <style>
-@import "test-vite-css-dep/assets/css/styles.css";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:200,200i,400,400i,500,500i,600,600i,700,700i,900,900i&display=swap');
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', 'serif';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
